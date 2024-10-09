@@ -1,0 +1,113 @@
+/* For the whole signup page */
+.signup-page {
+    display: flex;
+    height: 100vh;
+    background-color: #e5f7f9;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+}
+
+.signup-container {
+    display: flex;
+    width: 70%; /* Reduced width of signup box */
+    height: 70%; /* Reduced height */
+}
+
+/* Outer container for form and image */
+.signup-wrapper {
+    display: flex; /* Flexbox for layout */
+    width: 100%; /* Full width */
+}
+
+/* Left side with signup form */
+.signup-form {
+    width: 50%;
+    background-color: #c5f3fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical alignment */
+    align-items: center; /* Horizontal alignment */
+    padding: 20px; /* Added padding */
+    text-align: center; /* Center the text */
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-field {
+    width: 90%; /* Reduced width of the input fields */
+    margin-bottom: 15px; /* Reduced margin */
+    display: flex; /* Enable flexbox for horizontal alignment */
+    align-items: center; /* Center align items vertically */
+}
+
+.input-field label {
+    font-size: 16px; /* Size of the label */
+    margin-right: 10px; /* Space between label and input */
+    flex: 1; /* Take space for the label */
+    text-align: left; /* Align label text to the left */
+}
+
+.input-field input {
+    flex: 2; /* Input takes more space */
+    padding: 8px; /* Reduced padding for smaller height */
+    font-size: 14px; /* Slightly smaller text */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners for input fields */
+}
+
+/* Role selection */
+.role-selection {
+    width: 90%; /* Reduced width */
+    margin-bottom: 20px;
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center vertically */
+}
+
+/* Increased space between the Role label and the radio buttons */
+.role-selection label {
+    margin-right: 5px; /* Space between radio button and label */
+    font-size: 16px; /* Label font size */
+}
+
+/* Further increased margin to create more space */
+.role-selection label:first-child {
+    margin-right: 120px; /* Increased space to the right of the Role label */
+}
+
+/* Standard signup button */
+.signup-button {
+    background-color: #ff69b4; /* Pink color */
+    border: none;
+    padding: 10px; /* Increased height */
+    font-size: 16px; /* Slightly larger text */
+    width: 60%; /* Reduced width */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px; /* Rounded corners */
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Right side with image */
+.signup-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-image img {
+    width: 80%; /* Adjust as necessary */
+    border-radius: 50%; /* Circular image */
+}

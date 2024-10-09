@@ -1,0 +1,154 @@
+/* Whole login page */
+.login-page {
+    display: flex;
+    height: 100vh;
+    background-color: #e5f7f9;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Left side with image */
+.login-image {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image img {
+    width: 80%;
+}
+
+/* Right side with login form */
+.login-form {
+    width: 40%; /* Reduced width */
+    background-color: #c5f3fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical alignment */
+    align-items: center; /* Horizontal alignment */
+    padding: 20px; /* Padding for better spacing */
+    text-align: center; /* Center the text */
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Google login button */
+.google-login {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 10px; /* Increased padding for better button size */
+    font-size: 16px; /* Slightly larger text */
+    width: 60%; /* Adjusted width */
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Separator */
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center aligns both lines and text */
+    margin: 10px 0; /* Adjust the margin to position vertically */
+    width: 60%; /* Full width for the separator */
+}
+
+.line {
+    width: 30%; /* Shortened the lines */
+    border: 0;
+    height: 1px;
+    background-color: #000;
+    margin: 0; /* Remove margin to bring lines close to "or" */
+}
+
+.separator span {
+    font-size: 18px;
+    color: #333;
+    padding: 0 5px; /* Minimal padding to separate from the lines */
+}
+
+/* Input fields */
+.input-field {
+    position: relative;
+    margin-bottom: 15px; /* Reduced margin */
+    width: 80%; /* Maintain width */
+}
+
+/* Adjust input field styling */
+.input-field input {
+    width: 100%;
+    padding: 10px 35px 10px 10px; /* Right padding for the icon */
+    font-size: 14px; /* Slightly smaller text */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners for input fields */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Icon for input on the right side */
+.icon {
+    position: absolute;
+    right: 10px; /* Position icon on the right */
+    top: 50%; /* Center icon vertically */
+    transform: translateY(-50%); /* Adjust icon to the center */
+    font-size: 18px;
+    color: #888;
+}
+
+/* Change border color on focus */
+.input-field input:focus {
+    border-color: navy; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Forgot password */
+.forgot-password {
+    font-size: 14px;
+    color: blue;
+    text-align: right;
+    display: block;
+    margin-bottom: 15px; /* Reduced margin */
+    width: 80%; /* Match reduced width */
+}
+
+/* Standard login button */
+.login-button {
+    background-color: #ffa500;
+    border: none;
+    padding: 10px; /* Increased height */
+    font-size: 16px; /* Slightly larger text */
+    width: 60%; /* Adjusted width */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px; /* Rounded corners */
+}
+
+.signup-link {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    width: 80%; /* Match reduced width */
+}
+
+.signup-link a {
+    color: #000;
+    font-weight: bold;
+}
